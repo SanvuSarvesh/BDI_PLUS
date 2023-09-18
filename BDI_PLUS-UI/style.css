@@ -1,0 +1,86 @@
+*{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div .input{
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+    font-size: 17px;
+}
+input:hover{
+    background-color: rgb(245, 232, 232);
+}
+.main{
+    padding: 10px;
+    box-shadow: 10px 8px 15px 12px grey;
+}
+.button{
+    text-align: center;
+    padding: 4px;
+}
+.btn{
+    font-size: 30px;
+    box-shadow: 5px 5px 16px 8px grey;
+    width: 10%;
+}
+.operation{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.get input{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+}
+.delete input{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+}
+.get button{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+}
+.delete button{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+    
+}
+button:hover{
+    background-color: rgb(221, 205, 205);
+}
+.update button{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+    margin-right: 10px;
+}
+.find button{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 16px 8px grey;
+}
+.operations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
